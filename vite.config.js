@@ -3,5 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  base: '/FetchApiProject/',  // Replace 'my-repo-name' with your actual repo name
+  // other Vite configurations
 })
